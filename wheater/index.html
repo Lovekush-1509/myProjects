@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheater report</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wheater">
+            <div class="head">
+                <input id="searchBar" type="text" placeholder="enter city name">
+                <button id="search"><i id="searchIcon" class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="middle displayNone" >
+                <div class="cloud-image"><i class="cloud fa-solid   fa-cloud"></i>
+                    </div>
+                    <div class="sun-image"><i class="fa-solid fa-sun"></i></div>
+                    <h1 id="temperature">temperature</h1>
+                    <h2 class="city">City Name</h2>
+            </div>
+            <div class="footer displayNone" >
+                <div class="humidity">
+                        <i class="fa-solid fa-droplet"></i>
+                    <div>
+                        <h2 id="humidityInf">HI</h2>
+                        <h3>Humidity</h3>
+                    </div>
+                </div>
+                <div class="windSpeed">
+                            <i class="fa-solid fa-wind"></i>
+                        <div>
+                            <h2 id="windInfo">WS</h2>
+                            <h3>Wind Speed</h3>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/5e3b2b032d.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

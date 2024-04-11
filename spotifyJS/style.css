@@ -123,3 +123,9 @@ nav > a{
 .leftSongItem:hover{
     cursor: pointer;
 }
+
+@media only screen and (max-width: 800px) {
+   .songItem{
+    width: 100%;
+   }
+  }

@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Jacquard+24&display=swap');
+
+:root{
+    --primaryColor:#60aacb;
+}
+
+/* button:hover{
+    cursor: pointer;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Caveat", cursive;
+    list-style-type:none;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(220,220,221);
+    background: linear-gradient(90deg, rgba(220,220,221,1) 33%, rgba(197, 195,198,1) 70%, rgba(70,73,76,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.list-box{
+    box-shadow:10px 15px grey;
+    border-radius: 10px;
+    padding: 10px;
+    height: auto;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: white;
+}
+
+#to-do-image{
+    height:40px;
+}
+
+.list-head{
+    display: flex;
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#input-text{
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 40px;
+    z-index: 1;
+    background-color: gainsboro;
+}
+
+#input-btn{
+    position: relative;
+    height: 40px;
+    width: 80px;
+    padding: 10px;
+    background:var(--primaryColor);
+    border-radius: 40px;
+    bottom: 40px;
+    left: 240px;
+}
+
+.NodeAdd{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.NodeAdd>div>img:hover{
+    cursor: pointer;
+}
+
+.right{
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+
+.right:hover{
+   cursor: pointer;
+}
+
+.cross-image{
+    height: 40px;
+}
+
+.binImage{
+    height: 25px;
+    width: 20px;
+    transition:transform 0.5s linear 0.05s;
+    border: 2px solid grey;
+    padding: 2px;
+    border-radius: 3px;
+    background-color: #d2d2d2;
+}
+
+.binImage:hover{
+    height: 25px;
+    width: 20px;
+    transform: scale(1.1);
+    background-color: #ececec;
+}
+
+.NodeAdd > button{
+    margin: 5px;
+    height: 35px;
+    width: 31px;
+}
+
+/* .NodeAdd:hover{
+    cursor: pointer;
+} */
+
+#green-tick{
+    height: 51px;
+}
+
+.remove{
+    display: none;
+}
+
+
+.dispFlex{
+    display: flex;
+    justify-content: space-between;
+}
